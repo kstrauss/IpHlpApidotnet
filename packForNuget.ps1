@@ -1,0 +1,1 @@
+~\downloads\NuGet.exe Pack IpHlpApidotnet.csproj -includeReferencedProjects -symbols -verbosity detailed -outputDirectory .
