@@ -230,9 +230,8 @@ namespace IpHlpApidotnet
 
         public static string GetAPIErrorMessageDescription(int ApiErrNumber ) 
 		{
-			System.Text.StringBuilder sError = new System.Text.StringBuilder(512); 
-			int lErrorMessageLength; 
-			lErrorMessageLength = FormatMessage(FORMAT_MESSAGE_FROM_SYSTEM,(IntPtr)0, ApiErrNumber, 0, sError, sError.Capacity, (IntPtr)0) ;
+			var sError = new StringBuilder(512);
+            int lErrorMessageLength = FormatMessage(FORMAT_MESSAGE_FROM_SYSTEM,(IntPtr)0, ApiErrNumber, 0, sError, sError.Capacity, (IntPtr)0);
 			
 			if(lErrorMessageLength > 0)
 			{ 

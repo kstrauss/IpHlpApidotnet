@@ -78,12 +78,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CircularBuffer.cs" />
+    <Compile Include="IPHelper.cs" />
     <Compile Include="IPHlpAPI32.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="main.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="NetstatFunctions.cs" />
+    <Compile Include="TCPUDPConnection.cs" />
+    <Compile Include="TCPUDPConnections.cs" />
+    <Compile Include="Utils.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
