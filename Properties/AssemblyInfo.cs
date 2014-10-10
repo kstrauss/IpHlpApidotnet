@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("IpHlpApi")]
 [assembly: AssemblyDescription("Encapsulates some netstat functions that need P/Invoke")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("quiethills.net")]
 [assembly: AssemblyProduct("IpHlpApidotnet.Properties")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
